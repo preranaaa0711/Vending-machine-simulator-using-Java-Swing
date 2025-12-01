@@ -38,8 +38,10 @@ Composition/Aggregation: The VendingMachineApp (View) contains an instance of th
 NOTE: This project is a single, self-contained Java file.
 
 Prerequisites
+
 Java Development Kit (JDK) 8 or newer.
 
 Admin Requirements (for testing purposes)
+
 Username: manager123
 pin: 1234
