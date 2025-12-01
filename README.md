@@ -17,30 +17,11 @@ Intuitive GUI: Uses custom rendering and visual feedback (e.g., color-coded stoc
 Admin Dashboard: Secure, password/PIN-protected dashboard allowing administrators to view stock levels, refill products, and monitor sales performance.
 
 💻 Technology & Architecture
+Language- Java
+Framework- Swing(For desktop GUI)
+Persistance- Csv file (for local storage)
+Currency Management-  java.math.BigDecimal for accurate currency calculations (avoiding floating-point errors).
 
-Category
-
-Details
-
-Language
-
-Java
-
-Framework
-
-Swing (for desktop GUI)
-
-Persistence
-
-CSV File I/O (local data storage)
-
-Currency
-
-java.math.BigDecimal for accurate currency calculations (avoiding floating-point errors).
-
-Architecture
-
-MVC-like structure with a dedicated VendingMachineController handling all business logic, separate from the VendingMachineApp (View).
 
 🧠 Object-Oriented Programming (OOP) Concepts
 
@@ -52,4 +33,13 @@ Inheritance: The main application class (VendingMachineApp) inherits functionali
 
 Abstraction: The Product class provides a simple, high-level interface (dispense(), refill()) while hiding the internal logic of stock and sales manipulation. The CheckoutResult record abstracts the complex transaction outcome.
 
-Composition/Aggregation: The VendingMachineApp (View) contains an instance of the VendingMachineController, delegating all business logic execution to it.
+Composition/Aggregation: The VendingMachineApp (View) contains an instance of the VendingMachineController, delegating all business logic 
+
+NOTE: This project is a single, self-contained Java file.
+
+Prerequisites
+Java Development Kit (JDK) 8 or newer.
+
+Admin Requirements (for testing purposes)
+Username: manager123
+pin: 1234
